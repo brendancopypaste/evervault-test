@@ -1,0 +1,17 @@
+[function]
+# Customize your Function's timeout by providing a positive integer value.
+# The timeout is defined in seconds.
+# Default: 30
+# Maximum: 55
+timeout = 55
+
+# Customize your Function's entry point by specifying the handler in the form `<FILE>.<FUNCTION>`
+handler = "main.handler"
+
+# The name of your Function
+name = "pupeteer-test"
+
+# The language of your Function
+# Node: node@18, node@20
+# Python: python@3.9, python@3.10, python@3.11
+language = "node@18"
